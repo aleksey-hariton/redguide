@@ -1,0 +1,15 @@
+driver:
+  name: vagrant
+
+transport:
+  name: sftp
+
+platforms:
+- name: centos-7.3
+
+suites:
+  - name: default
+    run_list: redguide
+
+verifier:
+  name: inspec

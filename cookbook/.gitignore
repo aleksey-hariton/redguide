@@ -1,0 +1,16 @@
+*.swn
+*.swo
+*.swp
+.DS_Store
+.idea
+.rake_test_cache
+.chef/
+Gemfile.lock
+chefignoredoc
+checksums
+.yardoc
+doc
+.kitchen/
+.kitchen.local.yml
+Berksfile.lock
+Gemfile.lock

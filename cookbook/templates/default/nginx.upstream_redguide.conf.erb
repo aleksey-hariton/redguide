@@ -1,0 +1,4 @@
+upstream app {
+  # Path to Unicorn SOCK file, as defined previously
+  server unix:<%= @app_dir %>/tmp/sockets/unicorn.sock fail_timeout=0;
+}
